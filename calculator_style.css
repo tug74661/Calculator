@@ -1,0 +1,47 @@
+.row{
+    font-size: 0;
+}
+input[type=button]{
+    height: 50px;
+    width: 52px;
+    
+    background-color: rgb(228, 228, 227);
+    color: black;
+    font-size: 15px;
+    margin: 0% 0% 0% 0%;
+    font-weight: normal;
+    border: 1px solid rgb(165, 164, 164);
+  
+}
+input[type=text]{
+    height: 80px;
+    width: 204px;
+    font-size: 40px;
+    text-size-adjust: auto;
+    text-align: right;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.operator{
+    background-color: blue;
+    color: black;
+}
+
+#zero{
+    width: 104px;
+    
+}
+#multiply, #minus, #plus, #divide, #equals, #changeColor{
+    background-color: #ef6c00;
+    border: 1px solid black;
+}
+#clear{
+    background-color: crimson;
+    color: white;
+    font-weight: light;
+}
+#changeColor{
+    border-radius: 0%;
+}
+
